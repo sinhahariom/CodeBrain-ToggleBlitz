@@ -1,0 +1,42 @@
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn1 {
+  height: 50px;
+  width: 50px;
+  background-color: cyan;
+}
+
+.btn2 {
+  height: 50px;
+  width: 50px;
+  background-color: cyan;
+}
+
+.div1 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(40, 177, 51);
+  display: none;
+  color: black;
+}
+.div1::before {
+  content: "DIV 1";
+}
+
+.div2 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(166, 238, 72);
+  display: none;
+  content: ("DIV A");
+  color: black;
+}
+
+.div2::before {
+  content: "DIV 2";
+}
